@@ -3,7 +3,6 @@ import pylab as pl
 import tensorflow as tf
 import tensorflow.keras as keras
 import tensorflow.keras.layers as layers
-import tensorflow_probability as tfp
 
 from natsort import natsorted
 from random import randrange
