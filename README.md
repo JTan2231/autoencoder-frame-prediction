@@ -2,7 +2,7 @@
 
 Toy CNN autoencoder frame prediction using data from the [Berkeley Deep Drive Dataset](https://bdd-data.berkeley.edu/).
 
-Built using TensorFlow 2.3. Requires natsort: `python -m pip install natsort`.
+Built using TensorFlow 2.3. Requires natsort, pylab: `python -m pip install natsort`, `python -m pip install pylab`.
 
 ## Training
 
