@@ -58,9 +58,6 @@ def get_images():
 
 images = get_images()
 
-loss_met = keras.metrics.Mean()
-logits_met = keras.metrics.Mean()
-
 def predict(images):
     image_input = tf.expand_dims(tf.concat(images[:-1], -1), 0)
     label = tf.expand_dims(images[-1], 0)
