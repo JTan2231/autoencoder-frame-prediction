@@ -10,10 +10,7 @@ from random import randrange
 keras.backend.set_floatx("float32")
 
 def get_model():
-    # input batch shape will be (1, 180, 320, 15)
     inp = keras.Input(shape=(180, 320, 12))
-
-    #x = keras.applications.EfficientNetB0(weights='imagenet', include_top=False, input_shape=(180, 320, 3), pooling='avg')(inp)
 
     enc = keras.Sequential([layers.Conv2D(32, 9, activation='swish'),
                             layers.Conv2D(64, 5, activation='swish'),
